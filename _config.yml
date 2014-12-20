@@ -65,38 +65,38 @@ author:
   google_plus: 111190881341800841449    ## eg:116338260303228776998 for https://plus.google.com/u/0/116338260303228776998
   intro_line1: "Hello,I'm wanghaisheng. For now I'm a engineer in ShangHai." ## eg: "Hello ,I'm Larry Page in Google."
   intro_line2: "曾几何时，幻想着自己能文思如尿奔，写一些生活的感悟，记录一些成长的足迹，辗转从qq空间到chinaunix再到科学网，种种不适，最终在这里落脚。 这里是海生(edwin)的小窝，记录着海生成长过程中的酸甜苦辣。虽努力地想让大家看到、了解、认识真实的自己，海生却不如自己所想的那般勇敢和自信，这其中或多或少是由于天生的那点自尊、自恋和自卑在作祟。文字总是唯美的，我可爱的朋友们，希望你们能够从这些拙劣的话语中找到一丝丝温暖，感受到一丝丝温馨.如果看了我的碎碎念之后,你有要说话的冲动，请不要过分珍惜你的键盘或者是我的空间 －－ 因为，你是我的朋友。" ## eg: "This is my blog,believe it or not."
-  weibo: 没心没肺的edwin     ## e.g. 436062867 for http://weibo.com/edwinuestc
-  twitter:    ## e.g. yangjiansky for https://twitter.com/yangjiansky
-  github: wuchong    ## e.g. A-limon for https://github.com/wanghaisheng
+  weibo: edwinuestc     ## e.g. 436062867 for http://weibo.com/edwinuestc
+  twitter: edwin_uestc    ## e.g. yangjiansky for https://twitter.com/yangjiansky
+  github: wanghaisheng    ## e.g. A-limon for https://github.com/wanghaisheng
   facebook:   ## e.g. yangjian for https://favebook.com/yangjian
   stackoverflow:  ##3222790   ##e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
-  douban: wuchong1014    ##e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
-  tsina: 2176287895     ## e.g. 1664838973  Your weibo ID,It will be used in share button.
-  email: #edwin_uestc@163.com    ##email
+  douban: 48701103    ##e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
+  tsina: 1998662112     ## e.g. 1664838973  Your weibo ID,It will be used in share button.
+  email: edwin_uestc@163.com    ##email
 
 #### Comment
 duoshuo: 
   enable: true  ## duoshuo.com
-  short_name: wuchong   ## duoshuo short name.
+  short_name: edwinuestc   ## duoshuo short name.
 
 #### Share button
 jiathis:
   enable: true ## if you use jiathis as your share tool,the built-in share tool won't be display.
-  id: 1889330   ## e.g. 1501277 your jiathis ID. 
-  tsina: 2176287895 ## e.g. 1664838973 Your weibo id,It will be used in share button.
+  id: 1996161   ## e.g. 1501277 your jiathis ID. 
+  tsina: 1998662112 ## e.g. 1664838973 Your weibo id,It will be used in share button.
 
 #### Custom Search
 google_cse: 
   enable: true
-  cx: 018294693190868310296:abnhpuysycw ## e.g. 018294693190868310296:abnhpuysycw your Custom Search ID.
+  cx: 014486393298574645696:9wx2kujevbi ## e.g. 018294693190868310296:abnhpuysycw your Custom Search ID.
 ## https://www.google.com/cse/
   
   
 #### Analytics
 google_analytics:
   enable: true
-  id:   UA-46321946-2  ## e.g. UA-46321946-2 your google analytics ID.
-  site: wuchong.me     ## e.g. wuchong.me your google analytics site or set the value as auto.
+  id:   UA-57883739-1  ## e.g. UA-46321946-2 your google analytics ID.
+  site: http://wanghaisheng.github.io/     ## e.g. wuchong.me your google analytics site or set the value as auto.
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 
