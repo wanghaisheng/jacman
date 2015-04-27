@@ -14,6 +14,7 @@ highlight-green = #99cc99
 highlight-aqua = #66cccc
 highlight-blue = #6699cc
 highlight-purple = #cc99cc
+highlight-font-size = 0.9em
 
 $code-block
   background highlight-background
@@ -21,16 +22,19 @@ $code-block
   padding 0.5em 2%
   color highlight-foreground
   line-height line-height
-  font-size 0.1em
+  font-size 0.8em
   -webkit-border-radius 0.35em
   border-radius 0.35em
+  word-wrap break-word
   @media phone
-    font-size 0.95em
+    font-size highlight-font-size
 
 $line-numbers
   color highlight-line-numbers 
-  font-size 0.95em
-  line-height line-height
+  font-size 0.4em
+  @media phone
+    font-size highlight-font-size
+    line-height line-height
 
 .article-content   
   pre
@@ -46,6 +50,9 @@ $line-numbers
   .highlight
     @extend $code-block
     overflow auto
+    font-size 0.4em
+    @media phone
+      font-size highlight-font-size
     pre
       @extend $code-block
       border none
@@ -71,10 +78,14 @@ $line-numbers
       @extend $line-numbers
       text-align right
       padding-right 1.5em
+    .line
+      height: 20px
   .gist
     margin 0.5em 0
     background highlight-background
     padding 1em 2%
+    -webkit-border-radius 0.35em
+    border-radius 0.35em
     .gist-file
       border none
       font-family font-mono
@@ -93,6 +104,7 @@ $line-numbers
         margin 0
         padding 0
         border none
+        background highlight-background
       .gist-meta
         background highlight-background
         color highlight-comment

@@ -6,8 +6,6 @@ footer.article-footer
   
 //share
 .article-share
-  padding 0.5em 0
-  margin-top 0.3em
   float right
   width 100%
   @media phone
@@ -15,7 +13,10 @@ footer.article-footer
   @media mini
     width 16.5em
 
-  
+.article-share .share-jiathis
+  padding 0.5em 0
+  margin-top 0.3em
+
 .share 
   span
     float right
@@ -37,7 +38,7 @@ footer.article-footer
     display block
     position relative
     &:before
-      font-size font-size
+      font-size 1.2em
       font-family font-icon-family
       text-align center
       color color-font
@@ -69,10 +70,19 @@ footer.article-footer
 
 .article-share-qrcode
   &:before
-    content "\f029"
+    font-family font-icon-diao !important
+    content "\f132"
   &:hover
     background color-qrcode
     text-shadow 0 1px darken(color-qrcode, 20%)
+
+.article-share-renren
+  &:before
+    content "\f18b"
+  &:hover
+    background color-renren
+    text-shadow 0 1px darken(color-renren, 20%)
+
 
 .article-back-to-top
   &:before
@@ -130,18 +140,44 @@ footer.article-footer
   opacity 1
   visibility visible
 
+//comments-count
+.comments-count
+  color lighten(color-gray,20%)
+  margin-top 0.3em
+  padding 0.5em 0
+  float right
+  span
+    &:before
+      font-family font-icon-family
+      font-smoothing()
+      content "\f075"
+  @media phonemax
+    float left
+
+.comments-count-link
+  padding 0.5em
+  margin 0 0.3em
+  &:hover
+    color color-white !important
+    background color-blue
+
+
 //tags&categories
+.article-catetags
+  @media mini
+    //width 60%
 .article-tags,.article-categories
   padding 0.5em 0
   float left
-  width 100%
-  @media phone
-    width 50%
+  /**width 100%**/
+  @media phonemax
+    margin-right 1em !important
+    //width 100%
 
 .article-tags
   color lighten(color-gray,20%) 
-  @media mini
-    width 40%
+  @media phonemax
+    margin-left 0
   span
     position relative
     float left
@@ -165,8 +201,7 @@ footer.article-footer
 .article-categories
   color lighten(color-gray,20%)
   margin-top 0.3em
-  @media mini
-    width 20%
+  margin-right 3em
   span
     &:before
       font-family font-icon-family
@@ -267,6 +302,7 @@ section.comment
       list-style-type none
   .toc-child 
     padding-left 1.5em
+    padding-top 0
 
 #toc.toc-aside
   display none
