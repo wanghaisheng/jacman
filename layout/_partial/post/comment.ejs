@@ -1,10 +1,32 @@
 <% if (theme.duoshuo_shortname && page.comments){ %>
 <section id="comments" class="comment">
+<!-- Insticator API Embed Code -->
+<div id="insticator-container">
+<link rel="stylesheet" href="https://embed.insticator.com/embedstylesettings/getembedstyle?embedUUID=23e95455-bb92-4671-90ec-2ba73640aeb4">
+<div id="div-insticator-ad-1"><script type="text/javascript">Insticator.ad.loadAd("div-insticator-ad-1");</script></div>
+<div id="insticator-embed">
+<div id='insticator-api-iframe-div'><script>(function (d) {var id='23e95455-bb92-4671-90ec-2ba73640aeb4',cof = 1000 * 60 * 10,cbt = new Date(Math.floor(new Date().getTime() / cof) * cof).getTime(),js = 'https://embed.insticator.com/assets/javascripts/embed/insticator-api.js?cbt='+cbt, f = d.getElementById("insticator-api-iframe-div").appendChild(d.createElement('iframe')),doc = f.contentWindow.document;f.setAttribute("id","insticatorIframe"); f.setAttribute("frameborder","0"); doc.open().write('<script>var insticator_embedUUID = \''+id+'\'; var insticatorAsync = true;<\/script><body onload="var d = document;d.getElementsByTagName(\'head\')[0].appendChild(d.createElement(\'script\')).src=\'' + js + '\'" >');doc.close(); })(document);</script><noscript><a href="https://embed.insticator.com">Please enable JavaScript.</a></noscript></div>
+</div>
+<div id="div-insticator-ad-2"><script type="text/javascript">Insticator.ad.loadAd("div-insticator-ad-2");</script></div>
+</div>
+<!-- End Insticator API Embed Code -->
+
 	<div class="ds-thread" data-thread-key="<%- page.path %>" data-title="<%- page.title %>" data-url="<%- page.permalink %>"></div>
 </section>
 <% } %>
 <% if( (config.disqus_shortname || theme.disqus_shortname) && page.comments) { %>
 <section id="comments" class="comment">
+<!-- Insticator API Embed Code -->
+<div id="insticator-container">
+<link rel="stylesheet" href="https://embed.insticator.com/embedstylesettings/getembedstyle?embedUUID=23e95455-bb92-4671-90ec-2ba73640aeb4">
+<div id="div-insticator-ad-1"><script type="text/javascript">Insticator.ad.loadAd("div-insticator-ad-1");</script></div>
+<div id="insticator-embed">
+<div id='insticator-api-iframe-div'><script>(function (d) {var id='23e95455-bb92-4671-90ec-2ba73640aeb4',cof = 1000 * 60 * 10,cbt = new Date(Math.floor(new Date().getTime() / cof) * cof).getTime(),js = 'https://embed.insticator.com/assets/javascripts/embed/insticator-api.js?cbt='+cbt, f = d.getElementById("insticator-api-iframe-div").appendChild(d.createElement('iframe')),doc = f.contentWindow.document;f.setAttribute("id","insticatorIframe"); f.setAttribute("frameborder","0"); doc.open().write('<script>var insticator_embedUUID = \''+id+'\'; var insticatorAsync = true;<\/script><body onload="var d = document;d.getElementsByTagName(\'head\')[0].appendChild(d.createElement(\'script\')).src=\'' + js + '\'" >');doc.close(); })(document);</script><noscript><a href="https://embed.insticator.com">Please enable JavaScript.</a></noscript></div>
+</div>
+<div id="div-insticator-ad-2"><script type="text/javascript">Insticator.ad.loadAd("div-insticator-ad-2");</script></div>
+</div>
+<!-- End Insticator API Embed Code -->
+
   <div id="disqus_thread">
     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   </div>
